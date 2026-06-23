@@ -34,7 +34,7 @@ app.UseCors();
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "BookManager API v2");
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "BookManager API v3");
     c.RoutePrefix = string.Empty;
 });
 
